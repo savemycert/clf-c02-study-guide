@@ -1,6 +1,6 @@
 # CLF-C02 Study Guide: AWS Certified Cloud Practitioner
 
-A free, open study guide for the **AWS Certified Cloud Practitioner (CLF-C02)** exam. It covers every domain and topic in the official exam guide as a checklist, lists the facts worth memorizing, and links each topic to a full free lesson.
+A free, open study guide for the **AWS Certified Cloud Practitioner (CLF-C02)** exam: revision notes for every domain, side-by-side comparisons of commonly confused services, a glossary, 20 worked sample questions, and the official syllabus as a checklist with a full free lesson for every topic.
 
 Maintained by [SaveMyCert](https://www.savemycert.com/?utm_source=github&utm_medium=readme&utm_campaign=clf-c02-study-guide), where you can read every lesson free, [practice with explained questions](https://www.savemycert.com/practice/aws-cloud-practitioner/?utm_source=github&utm_medium=readme&utm_campaign=clf-c02-study-guide) and [take timed mock exams](https://www.savemycert.com/mocks/aws-cloud-practitioner/?utm_source=github&utm_medium=readme&utm_campaign=clf-c02-study-guide).
 
@@ -8,6 +8,7 @@ Maintained by [SaveMyCert](https://www.savemycert.com/?utm_source=github&utm_med
 
 - [Exam at a glance](#exam-at-a-glance)
 - [Exam domains](#exam-domains)
+- [What is in this repo](#what-is-in-this-repo)
 - [Syllabus checklist](#syllabus-checklist)
   - [Domain 1: Cloud Concepts](#domain-1-cloud-concepts)
   - [Domain 2: Security and Compliance](#domain-2-security-and-compliance)
@@ -43,6 +44,19 @@ Exam details change. Always confirm them in the official [AWS Certified Cloud Pr
 
 That is 4 domains and 19 topics. Spend your time in proportion to the weights: the heaviest domain decides more of your score than the lightest.
 
+## What is in this repo
+
+| File | What it gives you |
+|---|---|
+| [Domain 1 notes](notes/domain-1-cloud-concepts.md) | Cloud Concepts: condensed revision notes per topic |
+| [Domain 2 notes](notes/domain-2-security-and-compliance.md) | Security and Compliance: condensed revision notes per topic |
+| [Domain 3 notes](notes/domain-3-cloud-technology-and-services.md) | Cloud Technology and Services: condensed revision notes per topic |
+| [Domain 4 notes](notes/domain-4-billing-pricing-and-support.md) | Billing, Pricing, and Support: condensed revision notes per topic |
+| [Commonly confused services](comparisons.md) | Side-by-side tables of the services questions set against each other |
+| [Glossary](glossary.md) | Every in-scope term and service in one sentence |
+| [Sample questions](sample-questions.md) | 20 worked questions with answers and reasoning |
+| [Exam-day guide](exam-day-guide.md) | Booking, testing options, scoring, results and retakes |
+
 ## Syllabus checklist
 
 Tick each topic off once you can explain it without notes. The "Must know" facts are the ones questions turn on. Each lesson link goes to the complete, free lesson.
@@ -50,6 +64,8 @@ Tick each topic off once you can explain it without notes. The "Must know" facts
 ### Domain 1: Cloud Concepts
 
 **Weight: 24%.** The AWS Cloud value proposition: benefits, Well-Architected design principles, migration strategies, and cloud economics.
+
+📝 Revision notes: [Domain 1: Cloud Concepts](notes/domain-1-cloud-concepts.md)
 
 - [ ] **1.1 Define the benefits of the AWS Cloud**
   <br>The AWS value proposition: economies of scale and cost savings; benefits of the global infrastructure (speed of deployment, global reach); and the advantages of high availability, elasticity, and agility.
@@ -76,6 +92,8 @@ Tick each topic off once you can explain it without notes. The "Must know" facts
 
 **Weight: 30%.** The shared responsibility model, AWS security and governance concepts, identity and access management, and security resources.
 
+📝 Revision notes: [Domain 2: Security and Compliance](notes/domain-2-security-and-compliance.md)
+
 - [ ] **2.1 Understand the AWS shared responsibility model**
   <br>Recognizing the components of the shared responsibility model: what the customer is responsible for, what AWS is responsible for, what is shared, and how responsibilities shift depending on the service used (e.g. EC2 vs RDS vs Lambda).
   - 📖 Lesson: [AWS Shared Responsibility Model: Security OF the Cloud vs IN the Cloud](https://www.savemycert.com/revision/aws-cloud-practitioner/aws-shared-responsibility-model/?utm_source=github&utm_medium=readme&utm_campaign=clf-c02-study-guide)
@@ -100,6 +118,8 @@ Tick each topic off once you can explain it without notes. The "Must know" facts
 ### Domain 3: Cloud Technology and Services
 
 **Weight: 34%.** How to deploy and operate in AWS, the global infrastructure, and the core service portfolio: compute, database, network, storage, AI/ML, and analytics.
+
+📝 Revision notes: [Domain 3: Cloud Technology and Services](notes/domain-3-cloud-technology-and-services.md)
 
 - [ ] **3.1 Define methods of deploying and operating in the AWS Cloud**
   <br>Access and provisioning methods: programmatic access (APIs, SDKs, CLI) vs the Management Console vs infrastructure as code; one-time vs repeatable processes; cloud, hybrid, and on-premises deployment models; connectivity options (AWS VPN, Direct Connect, public internet).
@@ -146,6 +166,8 @@ Tick each topic off once you can explain it without notes. The "Must know" facts
 
 **Weight: 12%.** AWS pricing models, cost-management tooling, and the support and technical-resource landscape.
 
+📝 Revision notes: [Domain 4: Billing, Pricing, and Support](notes/domain-4-billing-pricing-and-support.md)
+
 - [ ] **4.1 Compare AWS pricing models**
   <br>Compute purchasing options (On-Demand, Reserved Instances, Spot, Savings Plans, Dedicated Hosts, Dedicated Instances, Capacity Reservations); Reserved Instance flexibility and behavior in AWS Organizations; data transfer charges (incoming/outgoing, same-Region vs cross-Region); storage pricing tiers.
   - 📖 Lesson: [AWS Pricing Models Explained: On-Demand, Reserved, Spot & Savings Plans](https://www.savemycert.com/revision/aws-cloud-practitioner/aws-pricing-models/?utm_source=github&utm_medium=readme&utm_campaign=clf-c02-study-guide)
@@ -172,7 +194,7 @@ Tick each topic off once you can explain it without notes. The "Must know" facts
 
 ## Sample questions
 
-[sample-questions.md](sample-questions.md) has 5 worked CLF-C02 questions with the answer, why each option is right or wrong, and the reasoning steps.
+[sample-questions.md](sample-questions.md) has 20 worked CLF-C02 questions with the answer, why each option is right or wrong, and the reasoning steps.
 
 ## Free resources
 
