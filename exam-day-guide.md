@@ -19,7 +19,7 @@ Source: [AWS Certification FAQs](https://aws.amazon.com/certification/faqs/), [A
 You can take CLF-C02 at a Pearson VUE testing center or as an online proctored exam. The rules differ in ways that matter on the day:
 
 - **Test center:** arrive 15 to 30 minutes before your appointment. You give your name, the exam title, and your ID, sign a candidate agreement, and may be photographed. Unscheduled breaks are allowed, but the exam timer keeps running and you cannot leave the building.
-- **Online proctored:** you can launch the exam up to 30 minutes before your scheduled time and check in yourself, including ID and environment checks. If you are more than 15 minutes late, or your computer fails the system test, you cannot launch the exam. You may not stand up or leave the camera's view for any reason during the exam, including for a restroom break. You also have to communicate with a proctor to complete an online appointment.
+- **Online proctored:** you can launch the exam up to 30 minutes before your scheduled time and check in yourself, including ID and environment checks. If you are more than 15 minutes late, or your computer fails the system test, you cannot launch the exam and your fee is forfeited. You may not stand up or leave the camera's view for any reason during the exam, including for a restroom break. You also have to communicate with a proctor to complete an online appointment.
 
 Source: [During testing (test day)](https://aws.amazon.com/certification/policies/during-testing/), [Before Testing](https://aws.amazon.com/certification/policies/before-testing/)
 
